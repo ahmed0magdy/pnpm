@@ -1,3 +1,4 @@
+mod global;
 mod named_registry;
 
 use super::{

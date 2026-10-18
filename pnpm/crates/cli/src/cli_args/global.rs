@@ -7,6 +7,8 @@
 //! hash symlink and the global bins are pointed at it.
 
 pub mod rust;
+#[cfg(test)]
+pub(crate) mod test_support;
 
 pub use builds::approve_global_builds;
 pub use legacy::migrate_legacy_global_packages;
